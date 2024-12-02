@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourism Highlights</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comforter+Brush&family=Heebo:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <style>
+    h1, h2 {
+      color: #005f73;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #0a9396;
+      color: white;
+    }
+    a {
+      color: #9b2226;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .video-container {
+      margin: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body id="top">
+
+  <!-- HEADER -->
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#">
+        <h1 class="logo">Tourest</h1>
+      </a>
+      <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
+        <ion-icon name="menu-outline" class="open"></ion-icon>
+        <ion-icon name="close-outline" class="close"></ion-icon>
+      </button>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li><a href="index.html" class="navbar-link">Home</a></li>
+          <li><a href="about.html" class="navbar-link">About Us</a></li>
+          <li><a href="popular.html" class="navbar-link">Tours</a></li>
+          <li><a href="destination.html" class="navbar-link">Destinations</a></li>
+          <li><a href="blog.html" class="navbar-link">Blog</a></li>
+          <li>
+            <a href="more.html" class="navbar-link"> More</a>
+          </li>
+          <li><a href="contact.html" class="navbar-link">Contact Us</a></li>
+        </ul>
+         </nav>
+    </div>
+  </header>
+
+  <!-- SECTION -->
+  <section class="section popular">
+    <div class="container">
+      <h1>Explore Amazing Destinations</h1>
+      <p>Welcome to our tourism guide! Discover breathtaking places, enjoy cultural experiences, and make unforgettable memories.</p>
+
+      <h2>Popular Tourist Destinations</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Destination</th>
+            <th>Country</th>
+            <th>Main Attraction</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Paris</td>
+            <td>France</td>
+            <td>Eiffel Tower</td>
+          </tr>
+          <tr>
+            <td>Kyoto</td>
+            <td>Japan</td>
+            <td>Arashiyama Bamboo Forest</td>
+          </tr>
+          <tr>
+            <td>Cape Town</td>
+            <td>South Africa</td>
+            <td>Table Mountain</td>
+          </tr>
+          <tr>
+            <td>Rome</td>
+            <td>Italy</td>
+            <td>Colosseum</td>
+          </tr>
+          <tr>
+            <td>New York City</td>
+            <td>USA</td>
+            <td>Statue of Liberty</td>
+          </tr>
+          <tr>
+            <td>Sydney</td>
+            <td>Australia</td>
+            <td>Sydney Opera House</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Video Section -->
+      <div class="video-container">
+        <video width="1000" height="440" controls="controls">
+          <source src="https://www.visitsaudi.com/en/campaigns/summer" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+
+     
+        
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
